@@ -1,0 +1,5 @@
+{
+  "name": "CommentFlow",
+  "description": "An application to automate commenting on Facebook, designed for the Telegram Mini App environment.",
+  "requestFramePermissions": []
+}
