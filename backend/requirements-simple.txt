@@ -1,0 +1,17 @@
+# Simplified requirements for Python 3.13 compatibility
+fastapi==0.115.0
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+alembic==1.13.3
+pydantic==2.10.4
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==45.0.0
+httpx==0.28.1
+python-multipart==0.0.16
+python-dotenv==1.0.1
+requests==2.32.3
+# Simple HTTP client for testing without complex dependencies
+aiofiles==24.1.0
+# For testing without Redis/Celery initially
+aiosqlite==0.19.0
