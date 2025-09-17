@@ -19,11 +19,11 @@ RUN playwright install chromium
 WORKDIR /app
 
 # Copy requirements and install Python dependencies
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . .
+# Copy backend application code
+COPY backend/ .
 
 # Create non-root user
 RUN useradd --create-home --shell /bin/bash app && chown -R app:app /app
